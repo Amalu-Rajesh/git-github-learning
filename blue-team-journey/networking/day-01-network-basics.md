@@ -1,12 +1,9 @@
-
 # Day 01 – Networking Basics
 
 **Learning Path:** Blue Team Cybersecurity  
 **Subject:** Computer Networking  
 **Day:** 01  
 **Level:** Beginner
-
----
 
 # 1. Learning Objectives
 
@@ -21,28 +18,16 @@ By the end of this session, I aim to understand:
 - Basic Linux networking commands.
 - The importance of networking in cybersecurity.
 
----
-
 # 2. What is a Computer Network?
 
 A computer network is a collection of two or more
 computing devices connected together to communicate
 and share information and resources.
 
-These devices can include:
-
-- Computers
-- Laptops
-- Smartphones
-- Servers
-- Printers
-- Routers
-- Network switches
-
 Devices communicate through wired or wireless
 connections using networking protocols.
 
-### Example
+   ### Example
 
 Consider a college computer laboratory.
 
@@ -65,51 +50,15 @@ Network knowledge helps security analysts:
 - Investigate network attacks.
 - Identify suspicious connections.
 
----
 
 # 3. Why Are Networks Used?
 
 Computer networks are used for several purposes.
-
-## 3.1 Communication
-
-Networks allow people to communicate through
-email, messaging applications, video calls
-and other online services.
-
-Example: Sending a message using WhatsApp.
-
-## 3.2 Resource Sharing
-
-Users can share hardware resources such as
-printers, storage devices and internet connections.
-
-Example: Multiple computers using one network printer.
-
-## 3.3 Data Sharing
-
-Networks allow users to exchange files,
-documents, images and other information.
-
-Example: Sharing documents through Google Drive.
-
-## 3.4 Centralized Management
-
-Organizations can manage computers, users,
-data and security policies from a central location.
-
-Example: A company managing employee accounts
-using a centralized server.
-
-## 3.5 Remote Access
-
-Users can access computers, files and services
-from different geographical locations.
-
-Example: An employee accessing an office system
-through a secure VPN connection.
-
----
+         Communication
+         Resource Sharing
+         Data Sharing
+         Centralized Management
+         Remote Access
 
 # 4. Types of Computer Networks
 
@@ -180,14 +129,11 @@ to the same Wi-Fi router.
 ### Comparison of Network Types
 
 | Type | Full Form | Coverage | Example |
-|---|---|---|---|
 | PAN | Personal Area Network | Personal space | Bluetooth |
 | LAN | Local Area Network | Building | College lab |
 | MAN | Metropolitan Area Network | City | City network |
 | WAN | Wide Area Network | Countries/continents | Internet |
 | WLAN | Wireless LAN | Local wireless area | Wi-Fi |
-
----
 
 # 5. Network Architectures
 
@@ -250,13 +196,10 @@ Disadvantages:
 ### Difference Between Client-Server and P2P
 
 | Client-Server | Peer-to-Peer |
-|---|---|
 | Uses a central server | No dedicated central server required |
 | Centralized management | Distributed management |
 | Easier centralized security | Security is managed across peers |
 | Suitable for organizations | Suitable for small-scale sharing |
-
----
 
 # 6. Basic Network Devices
 
@@ -345,8 +288,6 @@ Examples:
 - Email application
 - Mobile application
 
----
-
 # 7. Network Topologies
 
 Network topology describes the physical or
@@ -415,8 +356,6 @@ Disadvantages:
 - Requires more connections.
 - Complex configuration.
 
----
-
 # 8. Practical Work – Kali Linux
 
 In this practical session, I will explore
@@ -425,7 +364,6 @@ basic networking commands in Kali Linux.
 ## Practical 1: Display Network Interfaces
 
 Command:
-
 ```bash
 ip addr
 ```
@@ -531,20 +469,12 @@ I will record my actual observations below
 after executing the commands in Kali Linux.
 
 | Command | Observation |
-|---|---|
 | ip addr | To be updated |
 | ip route | To be updated |
 | ip link | To be updated |
 | ping -c 4 1.1.1.1 | To be updated |
 | ss -tuln | To be updated |
 
-Privacy note:
-
-Before publishing terminal output, I will
-remove or mask private IP addresses, MAC
-addresses and other identifying information.
-
----
 
 # 10. Networking and Blue Team Cybersecurity
 
@@ -584,12 +514,10 @@ Tools used in network security include:
 - Suricata
 - Zeek
 
----
 
 # 11. Important Terms to Remember
 
 | Term | Meaning |
-|---|---|
 | Network | Connected devices communicating |
 | IP Address | Logical network-layer address |
 | MAC Address | Link-layer hardware address |
@@ -602,8 +530,6 @@ Tools used in network security include:
 | Topology | Arrangement of network devices |
 | Gateway | Device or system providing a path to another network |
 | Bandwidth | Maximum data transfer capacity |
-
----
 
 # 12. Revision Questions
 
@@ -637,8 +563,6 @@ Tools used in network security include:
 4. Which command tests connectivity using ICMP?
 5. Which command displays listening TCP and UDP sockets?
 
----
-
 # 13. What I Learned Today
 
 After completing Day 1, I learned:
@@ -651,8 +575,6 @@ After completing Day 1, I learned:
 - Basic Linux networking commands.
 - How networking knowledge supports Blue Team security.
 
----
-
 # 14. Questions to Revisit
 
 - How does an IP address work?
@@ -661,8 +583,6 @@ After completing Day 1, I learned:
 - How does a router forward packets?
 - What happens when I access a website?
 - How can network traffic reveal suspicious activity?
-
----
 
 # Conclusion
 
